@@ -11,13 +11,29 @@ namespace SitiosWebForms.Sitios
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string CodSitiovalue = SitiosForm.FindControl("CodSitioLabel").ToString();
+            ///Formulario de Victimas
+            ///
+            TextBox CodigoSitioBox1 = new TextBox();
+            
+            CodigoSitioBox1 = (TextBox)AgregarVictima.FindControl("CodSitioTextBox");
+            
+            CodigoSitioBox1.Text = Convert.ToString(CodeSearchBox.Text);
 
-            TextBox CodigoSitioBox = new TextBox();
+            ///Formulario de Testigos
+            ///
+            TextBox CodigoSitioBox2 = new TextBox();
 
-            CodigoSitioBox = (TextBox)AgregarVictima.FindControl("CodSitioTextBox");
+            CodigoSitioBox2 = (TextBox)AgregarTestigo.FindControl("CodSitioTextBox");
 
-            CodSitiovalue = Convert.ToString(CodSitiovalue);  
+            CodigoSitioBox2.Text = Convert.ToString(CodeSearchBox.Text);
+
+            ///Formulario de Informantes
+            ///
+            TextBox CodigoSitioBox3 = new TextBox();
+
+            CodigoSitioBox3 = (TextBox)AgregarInformante.FindControl("CodSitioTextBox");
+
+            CodigoSitioBox3.Text = Convert.ToString(CodeSearchBox.Text);
         }
     }
 }
