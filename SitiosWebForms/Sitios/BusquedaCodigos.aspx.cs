@@ -11,29 +11,35 @@ namespace SitiosWebForms.Sitios
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
+            ///Nuevo Intento de obtener el Label del Código
+            ///
+
+
+
             ///Formulario de Victimas
             ///
-            TextBox CodigoSitioBox1 = new TextBox();
-            
-            CodigoSitioBox1 = (TextBox)AgregarVictima.FindControl("CodSitioTextBox");
-            
-            CodigoSitioBox1.Text = Convert.ToString(CodeSearchBox.Text);
+            ///TextBox CodigoSitioBox1 = new TextBox();
+            ///
+            ///CodigoSitioBox1 = (TextBox)AgregarVictima.FindControl("CodSitioTextBox");
+            ///
+            ///CodigoSitioBox1.Text = Convert.ToString(CodeSearchBox.Text);
 
             ///Formulario de Testigos
             ///
-            TextBox CodigoSitioBox2 = new TextBox();
-            
-            CodigoSitioBox2 = (TextBox)AgregarTestigo.FindControl("CodSitioTextBox");
-            
-            CodigoSitioBox2.Text = Convert.ToString(CodeSearchBox.Text);
+            ///TextBox CodigoSitioBox2 = new TextBox();
+            ///
+            ///CodigoSitioBox2 = (TextBox)AgregarTestigo.FindControl("CodSitioTextBox");
+            ///
+            ///CodigoSitioBox2.Text = Convert.ToString(CodeSearchBox.Text);
            
             ///Formulario de Informantes
             ///
-            TextBox CodigoSitioBox3 = new TextBox();
-            
-            CodigoSitioBox3 = (TextBox)AgregarInformante.FindControl("CodSitioTextBox");
-            
-            CodigoSitioBox3.Text = Convert.ToString(CodeSearchBox.Text);
+            ///TextBox CodigoSitioBox3 = new TextBox();
+            ///
+            ///CodigoSitioBox3 = (TextBox)AgregarInformante.FindControl("CodSitioTextBox");
+            ///
+            ///CodigoSitioBox3.Text = Convert.ToString(CodeSearchBox.Text);
         }
     }
 }
