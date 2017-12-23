@@ -31,6 +31,15 @@ namespace SitiosWebForms.Sitios {
         protected global::System.Web.UI.WebControls.Button CodeSearchBtn;
         
         /// <summary>
+        /// Control UpdatePanelSitio.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.UpdatePanel UpdatePanelSitio;
+        
+        /// <summary>
         /// Control SitiosForm.
         /// </summary>
         /// <remarks>
@@ -38,96 +47,6 @@ namespace SitiosWebForms.Sitios {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.FormView SitiosForm;
-        
-        /// <summary>
-        /// Control UpdVictimasGrid.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdVictimasGrid;
-        
-        /// <summary>
-        /// Control GridViewVictimas.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridViewVictimas;
-        
-        /// <summary>
-        /// Control SqlDataSource3.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource3;
-        
-        /// <summary>
-        /// Control UpdTestigosGrid.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdTestigosGrid;
-        
-        /// <summary>
-        /// Control GridViewTestigos.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridViewTestigos;
-        
-        /// <summary>
-        /// Control SqlDataSource4.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource4;
-        
-        /// <summary>
-        /// Control UpdInformantesGrid.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdInformantesGrid;
-        
-        /// <summary>
-        /// Control GridViewInformantes.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridViewInformantes;
-        
-        /// <summary>
-        /// Control SqlDataSource5.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource5;
-        
-        /// <summary>
-        /// Control agregarvictimaupd.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel agregarvictimaupd;
         
         /// <summary>
         /// Control AgregarVictima.
@@ -139,15 +58,6 @@ namespace SitiosWebForms.Sitios {
         protected global::System.Web.UI.WebControls.FormView AgregarVictima;
         
         /// <summary>
-        /// Control SqlDataSource2.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource2;
-        
-        /// <summary>
         /// Control AgregarTestigo.
         /// </summary>
         /// <remarks>
@@ -157,13 +67,22 @@ namespace SitiosWebForms.Sitios {
         protected global::System.Web.UI.WebControls.FormView AgregarTestigo;
         
         /// <summary>
-        /// Control SqlDataSource6.
+        /// Control GridVictimas.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource6;
+        protected global::System.Web.UI.WebControls.GridView GridVictimas;
+        
+        /// <summary>
+        /// Control GridInformantes.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView GridInformantes;
         
         /// <summary>
         /// Control AgregarInformante.
@@ -175,21 +94,66 @@ namespace SitiosWebForms.Sitios {
         protected global::System.Web.UI.WebControls.FormView AgregarInformante;
         
         /// <summary>
-        /// Control SqlDataSource7.
+        /// Control SqlDataSource_Sitios.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource7;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource_Sitios;
         
         /// <summary>
-        /// Control SqlDataSource1.
+        /// Control SqlDataSource_AgregarVictima.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource_AgregarVictima;
+        
+        /// <summary>
+        /// Control SqlDataSource_AgregarTestigo.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource_AgregarTestigo;
+        
+        /// <summary>
+        /// Control SqlDataSource_AgregarInformante.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource_AgregarInformante;
+        
+        /// <summary>
+        /// Control SqlDataSource_Victimas.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource_Victimas;
+        
+        /// <summary>
+        /// Control SqlDataSource_Testigos.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource_Testigos;
+        
+        /// <summary>
+        /// Control SqlDataSource_Informantes.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource_Informantes;
     }
 }

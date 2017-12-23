@@ -22,17 +22,17 @@ namespace SitiosWebForms.Sitios
             ///Formulario de Testigos
             ///
             TextBox CodigoSitioBox2 = new TextBox();
-
+            
             CodigoSitioBox2 = (TextBox)AgregarTestigo.FindControl("CodSitioTextBox");
-
+            
             CodigoSitioBox2.Text = Convert.ToString(CodeSearchBox.Text);
-
+           
             ///Formulario de Informantes
             ///
             TextBox CodigoSitioBox3 = new TextBox();
-
+            
             CodigoSitioBox3 = (TextBox)AgregarInformante.FindControl("CodSitioTextBox");
-
+            
             CodigoSitioBox3.Text = Convert.ToString(CodeSearchBox.Text);
         }
     }
