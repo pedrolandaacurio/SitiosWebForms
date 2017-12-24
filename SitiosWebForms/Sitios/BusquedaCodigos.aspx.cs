@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -9,13 +10,13 @@ namespace SitiosWebForms.Sitios
 {
     public partial class BusquedaCodigos : System.Web.UI.Page
     {
+        SqlConnection sc = new SqlConnection(@"Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Datos.mdf;Initial Catalog=Datos;Integrated Security=True");
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
             ///Nuevo Intento de obtener el Label del Código
             ///
-
-
 
             ///Formulario de Victimas
             ///
@@ -32,7 +33,7 @@ namespace SitiosWebForms.Sitios
             ///CodigoSitioBox2 = (TextBox)AgregarTestigo.FindControl("CodSitioTextBox");
             ///
             ///CodigoSitioBox2.Text = Convert.ToString(CodeSearchBox.Text);
-           
+
             ///Formulario de Informantes
             ///
             ///TextBox CodigoSitioBox3 = new TextBox();
@@ -40,6 +41,8 @@ namespace SitiosWebForms.Sitios
             ///CodigoSitioBox3 = (TextBox)AgregarInformante.FindControl("CodSitioTextBox");
             ///
             ///CodigoSitioBox3.Text = Convert.ToString(CodeSearchBox.Text);
+            ///
+
         }
     }
 }

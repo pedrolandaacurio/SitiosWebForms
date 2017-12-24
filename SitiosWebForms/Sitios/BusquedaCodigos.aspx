@@ -253,9 +253,6 @@
                     <div class="modal-body">
                         <div class="form-horizontal">
                             <asp:UpdatePanel runat="server" ID="UpdatePanelVictimas">
-                                <Triggers>
-                                    <asp:AsyncPostBackTrigger ControlID="AgregarVictimaSubmit" EventName="onclick" />
-                                </Triggers>
                                 <ContentTemplate>
                                     <fieldset>
                                         <div class="form-group">
@@ -299,7 +296,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-12">
-                                            <button runat="server" class="btn btn-primary btn-block" id="AgregarVictimaSubmit" type="submit">Guardar</button>
+                                            <button runat="server" class="btn btn-primary btn-block" id="AgregarVictimaSubmit" type="submit" >Guardar</button>
                                         </div>
                                     </fieldset>
                                     <hr />
