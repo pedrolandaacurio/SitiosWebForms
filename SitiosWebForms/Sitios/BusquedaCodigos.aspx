@@ -257,46 +257,46 @@
                                     <fieldset>
                                         <div class="form-group">
                                             <div class="col-md-12">
-                                                <input class="form-control" name="NombresVíctimaInput" placeholder="Nombres" />
+                                                <input runat="server" class="form-control" ID="NombresVíctimaInput" placeholder="Nombres" />
                                             </div>
                                         </div>
                                         <div class="form-group">
                                             <div class="col-md-6">
-                                                <input class="form-control" name="ApellidoPaternoVictimaInput" placeholder="Apellido Paterno" />
+                                                <input runat="server" class="form-control" ID="ApellidoPaternoVictimaInput" placeholder="Apellido Paterno" />
                                             </div>
                                             <div class="col-md-6">
-                                                <input class="form-control" name="ApellidoMaternoVictimaInput" placeholder="Apellido Materno" />
+                                                <input runat="server" class="form-control" ID="ApellidoMaternoVictimaInput" placeholder="Apellido Materno" />
                                             </div>
                                         </div>
                                         <div class="form-group">
                                             <div class="col-md-6">
-                                                <select class="form-control" name="SexoVictimaInput">
+                                                <select runat="server" class="form-control" ID="SexoVictimaInput">
                                                     <option value="">Seleccione un sexo...</option>
-                                                    <option value="F">F</option>
-                                                    <option value="M">M</option>
+                                                    <option value="F">Femenino</option>
+                                                    <option value="M">Masculinos</option>
                                                 </select>
                                             </div>
                                             <div class="col-md-6">
-                                                <input class="form-control" name="EdadVictimaInput" type="number" placeholder="Edad" />
+                                                <input runat="server" class="form-control" ID="EdadVictimaInput" type="number" placeholder="Edad" />
                                             </div>
                                         </div>
                                         <div class="form-group">
                                             <div class="col-md-12">
-                                                <input class="form-control" name="ProcedenciaVictimaInput" placeholder="Procedencia" />
+                                                <input runat="server" class="form-control" ID="ProcedenciaVictimaInput" placeholder="Procedencia" />
                                             </div>
                                         </div>
                                         <div class="form-group">
                                             <div class="col-md-12">
-                                                <input class="form-control" name="FamiliaVictimaInput" placeholder="Familia" />
+                                                <input runat="server" class="form-control" ID="FamiliaVictimaInput" placeholder="Familia" />
                                             </div>
                                         </div>
                                         <div class="form-group">
                                             <div class="col-md-12">
-                                                <input class="form-control" name="PresuntaAfiliacionVictimaInput" placeholder="Presunta afiliación" />
+                                                <input runat="server" class="form-control" ID="PresuntaAfiliacionVictimaInput" placeholder="Presunta afiliación" />
                                             </div>
                                         </div>
                                         <div class="col-md-12">
-                                            <button runat="server" class="btn btn-primary btn-block" id="AgregarVictimaSubmit" type="submit" >Guardar</button>
+                                            <asp:Button runat="server" ID="ButtonAgregarVictima" CssClass="btn btn-primary btn-block" OnClick="ButtonAgregarVictima_Click" Text="Guardar víctima" />
                                         </div>
                                     </fieldset>
                                     <hr />

@@ -58,13 +58,85 @@ namespace SitiosWebForms.Sitios {
         protected global::System.Web.UI.UpdatePanel UpdatePanelVictimas;
         
         /// <summary>
-        /// Control AgregarVictimaSubmit.
+        /// Control NombresVíctimaInput.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton AgregarVictimaSubmit;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText NombresVíctimaInput;
+        
+        /// <summary>
+        /// Control ApellidoPaternoVictimaInput.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText ApellidoPaternoVictimaInput;
+        
+        /// <summary>
+        /// Control ApellidoMaternoVictimaInput.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText ApellidoMaternoVictimaInput;
+        
+        /// <summary>
+        /// Control SexoVictimaInput.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlSelect SexoVictimaInput;
+        
+        /// <summary>
+        /// Control EdadVictimaInput.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl EdadVictimaInput;
+        
+        /// <summary>
+        /// Control ProcedenciaVictimaInput.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText ProcedenciaVictimaInput;
+        
+        /// <summary>
+        /// Control FamiliaVictimaInput.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText FamiliaVictimaInput;
+        
+        /// <summary>
+        /// Control PresuntaAfiliacionVictimaInput.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText PresuntaAfiliacionVictimaInput;
+        
+        /// <summary>
+        /// Control ButtonAgregarVictima.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonAgregarVictima;
         
         /// <summary>
         /// Control VictimasGridView.

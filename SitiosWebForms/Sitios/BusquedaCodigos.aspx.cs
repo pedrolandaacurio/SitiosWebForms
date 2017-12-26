@@ -42,7 +42,20 @@ namespace SitiosWebForms.Sitios
             ///
             ///CodigoSitioBox3.Text = Convert.ToString(CodeSearchBox.Text);
             ///
+           
 
+        }
+
+        protected void ButtonAgregarVictima_Click(object sender, EventArgs e)
+        {
+            sc.Open();
+
+            SqlCommand cmdAgregarVictima = sc.CreateCommand();
+            cmdAgregarVictima.CommandType = System.Data.CommandType.Text;
+            cmdAgregarVictima.CommandText = "insert into Victimas (CodSitio, Nombres, ApellidoPaterno, ApellidoMaterno, Sexo, Edad, Procedencia, Familia, PresuntaAfiliacion) values ('" + Convert.ToString(CodeSearchBox.Text) + "','" + NombresVíctimaInput.Value + "','" + ApellidoPaternoVictimaInput.Value + "','" + ApellidoMaternoVictimaInput.Value + "','" + SexoVictimaInput.Value + "','" + EdadVictimaInput.Value + "','" + ProcedenciaVictimaInput.Value + "','" + FamiliaVictimaInput.Value + "','" + PresuntaAfiliacionVictimaInput.Value + "')";
+            cmdAgregarVictima.ExecuteNonQuery();
+
+            sc.Close();
         }
     }
 }
