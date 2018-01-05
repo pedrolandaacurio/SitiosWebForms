@@ -13,24 +13,6 @@ namespace SitiosWebForms.Sitios {
     public partial class BusquedaCodigos {
         
         /// <summary>
-        /// Control CodeSearchBox.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox CodeSearchBox;
-        
-        /// <summary>
-        /// Control CodeSearchBtn.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button CodeSearchBtn;
-        
-        /// <summary>
         /// Control UpdatePanelSitio.
         /// </summary>
         /// <remarks>
@@ -40,129 +22,165 @@ namespace SitiosWebForms.Sitios {
         protected global::System.Web.UI.UpdatePanel UpdatePanelSitio;
         
         /// <summary>
-        /// Control SitiosForm.
+        /// Control BusquedaCaja.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.FormView SitiosForm;
+        protected global::System.Web.UI.WebControls.DropDownList BusquedaCaja;
         
         /// <summary>
-        /// Control UpdatePanelVictimas.
+        /// Control BusquedaCajaSQLSource.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanelVictimas;
+        protected global::System.Web.UI.WebControls.SqlDataSource BusquedaCajaSQLSource;
         
         /// <summary>
-        /// Control NombresVíctimaInput.
+        /// Control BusquedaClasificacion.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText NombresVíctimaInput;
+        protected global::System.Web.UI.WebControls.DropDownList BusquedaClasificacion;
         
         /// <summary>
-        /// Control ApellidoPaternoVictimaInput.
+        /// Control BusquedaClasificacionSQLSource.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText ApellidoPaternoVictimaInput;
+        protected global::System.Web.UI.WebControls.SqlDataSource BusquedaClasificacionSQLSource;
         
         /// <summary>
-        /// Control ApellidoMaternoVictimaInput.
+        /// Control ListaSitiosSelect.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText ApellidoMaternoVictimaInput;
+        protected global::System.Web.UI.WebControls.GridView ListaSitiosSelect;
         
         /// <summary>
-        /// Control SexoVictimaInput.
+        /// Control GridViewListaSQLSource.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlSelect SexoVictimaInput;
+        protected global::System.Web.UI.WebControls.SqlDataSource GridViewListaSQLSource;
         
         /// <summary>
-        /// Control EdadVictimaInput.
+        /// Control FormularioDeSitios.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl EdadVictimaInput;
+        protected global::System.Web.UI.WebControls.FormView FormularioDeSitios;
         
         /// <summary>
-        /// Control ProcedenciaVictimaInput.
+        /// Control SqlDataSource5.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText ProcedenciaVictimaInput;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource5;
         
         /// <summary>
-        /// Control FamiliaVictimaInput.
+        /// Control UpdatePanel1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText FamiliaVictimaInput;
+        protected global::System.Web.UI.UpdatePanel UpdatePanel1;
         
         /// <summary>
-        /// Control PresuntaAfiliacionVictimaInput.
+        /// Control FormView1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText PresuntaAfiliacionVictimaInput;
+        protected global::System.Web.UI.WebControls.FormView FormView1;
         
         /// <summary>
-        /// Control ButtonAgregarVictima.
+        /// Control SqlDataSource1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonAgregarVictima;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
         
         /// <summary>
-        /// Control VictimasGridView.
+        /// Control GridView1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView VictimasGridView;
+        protected global::System.Web.UI.WebControls.GridView GridView1;
         
         /// <summary>
-        /// Control SqlDataSource_Sitios.
+        /// Control SqlDataSource2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource_Sitios;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource2;
         
         /// <summary>
-        /// Control GridViewVictimas.
+        /// Control UpdatePanel2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource GridViewVictimas;
+        protected global::System.Web.UI.UpdatePanel UpdatePanel2;
+        
+        /// <summary>
+        /// Control FormView2.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.FormView FormView2;
+        
+        /// <summary>
+        /// Control SqlDataSource3.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource3;
+        
+        /// <summary>
+        /// Control GridView2.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView GridView2;
+        
+        /// <summary>
+        /// Control SqlDataSource4.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource4;
     }
 }
